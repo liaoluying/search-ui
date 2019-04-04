@@ -1,34 +1,28 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
-/* start editing from here */
+/* reset */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
 article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
 ol,ul{list-style:none;margin:0;padding:0;}
 blockquote,q{quotes:none;}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
 table{border-collapse:collapse;border-spacing:0;}
-/* start editing from here */
+
 a{text-decoration:none;}
-.txt-rt{text-align:right;}/* text align right */
-.txt-lt{text-align:left;}/* text align left */
-.txt-center{text-align:center;}/* text align center */
-.float-rt{float:right;}/* float right */
-.float-lt{float:left;}/* float left */
-.clear{clear:both;}/* clear float */
-.pos-relative{position:relative;}/* Position Relative */
-.pos-absolute{position:absolute;}/* Position Absolute */
-.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
-.vertical-top{	vertical-align:top;}/* vertical align top */
-.underline{	padding-bottom:5px;	border-bottom: 1px solid #eee; margin:0 0 20px 0;}/* Add 5px bottom padding and a underline */
-nav.vertical ul li{	display:block;}/* vertical menu */
-nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+.txt-rt{text-align:right;}
+.txt-lt{text-align:left;}
+.txt-center{text-align:center;}
+.float-rt{float:right;}
+.float-lt{float:left;}
+.clear{clear:both;}
+.pos-relative{position:relative;}
+.pos-absolute{position:absolute;}
+.vertical-base{	vertical-align:baseline;}
+.vertical-top{	vertical-align:top;}
+.underline{	padding-bottom:5px;	border-bottom: 1px solid #eee; margin:0 0 20px 0;}
+nav.vertical ul li{	display:block;}
+nav.horizontal ul li{	display: inline-block;}
 img{max-width:100%;}
-/*end reset*/
-/*--login form start here--*/ 
+
+
 body {
    background:url(../images/tech.jpg)no-repeat 0 0;
    background-size: cover;
@@ -40,7 +34,7 @@ body {
 }
 .search {
   text-align: center;
-  margin: 10em 0em 0em 0em;
+  margin: 10em 0em 6em 0em;
   position: relative;
 }
 .s-bar {
@@ -58,7 +52,7 @@ body {
  -webkit-border-radius: 10px 0px 0px 10px;
   -moz-border-radius: 10px 0px 0px 10px;
   -o-border-radius: 10px 0px 0px 10px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.3);
   border: none;
   outline: none;
   -webkit-appearance: none;
@@ -106,7 +100,7 @@ body {
 .search p {
   font-size: 0.9em;
   font-weight: 400;
-  color: #fff;
+  color: #fefefe;
   margin: 1em 0em 0em 0em;
 }
 .search p a {
@@ -115,27 +109,7 @@ body {
   color: #fff;
   text-decoration: underline;
 }
-.copyright {
-  margin: 15em 0em 0em 0em;
-  text-align: center;
-}
-.copyright p {
-  font-size: 0.875em;
-  font-weight: 400;
-  color: #fff;
-}
-.copyright p a{
-  font-size: 1em;
-  font-weight: 400;
-  color:#8EDB15;
-}
-.copyright p a:hover{
-	color: #fff;
-	 transition: 0.5s all;
-  -webkit-transition: 0.5s all;
-  -moz-transition: 0.5s all;
-  -o-transition: 0.5s all;
-}
+
 /*--meadia quiries start here--*/
 @media(max-width:1440px){
 .search i {
@@ -148,10 +122,8 @@ body {
 @media(max-width:1366px){
 
 }
-@media(max-width:1280px){
-.copyright {
-  margin: 13em 0em 4em 0em;
-}
+@media(max-width:1290px){
+
 .s-bar input[type="text"] {
   width: 63%;
 }
@@ -166,16 +138,10 @@ body {
 .search i {
   left: 25.2%;
 }
-.copyright {
-  margin: 13em 0em 4.1em 0em;
-}
 }
 @media(max-width:768px){
-.copyright {
-  margin: 21em 0em 7.2em 0em;
-}
 .search {
-  margin: 22em 0em 0em 0em;
+  margin: 5em 0em 3em 0em;
 }
 .s-bar {
   width: 58%;
@@ -185,9 +151,6 @@ body {
 }
 .s-bar input[type="text"] {
   width: 67%;
-}
-.copyright p {
-  font-size: 0.9em;
 }
 }
 @media(max-width:667px){
@@ -233,15 +196,6 @@ body {
 }	
 }
 @media(max-width:320px){
-.copyright {
-  margin: 10.45em 0em 3em 0em;
-}
-.copyright p {
-  font-size: 0.8em;
-}
-.copyright p {
-  font-size: 0.8em;
-}
 .search {
   margin: 11.25em 0em 0em 0em;
 }

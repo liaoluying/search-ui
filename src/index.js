@@ -5,7 +5,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 //导入自己的路由模块
-import router from './router.js'
+import router from './router/router.js'
 
 //注册VUEX
 import Vuex from 'vuex'
